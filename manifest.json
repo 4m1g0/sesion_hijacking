@@ -9,5 +9,8 @@
       "default_title": "Sesion hijacking.",
       "default_popup": "popup.html"
   },
+  "background": {
+    "page": "popup.html"
+  },
   "manifest_version": 2
 }
